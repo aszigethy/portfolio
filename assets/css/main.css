@@ -589,6 +589,10 @@ h2 + .stack {
   letter-spacing: 0.02em;
 }
 
+.timeline-card > p + strong {
+  margin-top: 0.95rem;
+}
+
 .timeline-card__header {
   display: flex;
   flex-wrap: wrap;
@@ -925,6 +929,22 @@ h2 + .stack {
 
   .site-nav {
     justify-content: flex-start;
+    flex-wrap: nowrap;
+    gap: 0.3rem 0.55rem;
+    width: 100%;
+    overflow-x: auto;
+    scrollbar-width: none;
+    white-space: nowrap;
+  }
+
+  .site-nav::-webkit-scrollbar {
+    display: none;
+  }
+
+  .site-nav a {
+    flex: 0 0 auto;
+    font-size: 0.95rem;
+    padding: 0.25rem 0.05rem;
   }
 
   .hero > div:first-child,
