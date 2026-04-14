@@ -1,0 +1,19 @@
+- value: "30"
+  suffix: "+"
+  label: Engineers led across distributed teams
+- value: "97"
+  suffix: "%"
+  label: Manual provisioning effort reduced
+- value: "40,000"
+  suffix: "+"
+  label: Devices streamlined through automation
+- value: "4,500"
+  suffix: ""
+  label: Sites migrated with zero downtime
+- value: "35"
+  suffix: "x"
+  label: Reduction in site install effort
+- value: "3"
+  suffix: ""
+  label: Software teams built inside ConnX
+

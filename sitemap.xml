@@ -1,0 +1,21 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {% assign root = site.github.url | default: site.url | default: '' %}
+  {% assign core_pages = site.pages | where_exp: "page", "page.permalink != nil" %}
+  {% for page in core_pages %}
+    <url>
+      <loc>{{ root }}{{ page.permalink }}</loc>
+      <lastmod>{{ page.last_modified_at | default: site.time | date_to_xmlschema }}</lastmod>
+    </url>
+  {% endfor %}
+  {% for post in site.posts %}
+    <url>
+      <loc>{{ root }}{{ post.url }}</loc>
+      <lastmod>{{ post.updated | default: post.date | date_to_xmlschema }}</lastmod>
+    </url>
+  {% endfor %}
+</urlset>
+

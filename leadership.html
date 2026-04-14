@@ -1,0 +1,34 @@
+---
+layout: page
+title: Leadership
+permalink: /leadership/
+lede: The leadership work behind the technical work: standards, alignment, conflict resolution, and organizational design.
+seo_title: Leadership | Andrew Szigethy
+seo_description: Leadership themes and stories showing how Andrew Szigethy improves engineering systems, people development, and delivery.
+---
+<p>
+  Andrew's leadership value shows up in the systems around the team, not just the output of the
+  team. He builds structure where there was drift, clarity where there was friction, and durable
+  mechanisms where others might only create temporary workarounds.
+</p>
+
+<div class="stack">
+  {% for item in site.data.leadership %}
+    <article class="note-card">
+      <strong>{{ item.title }}</strong>
+      <p>{{ item.detail }}</p>
+      <p class="muted">{{ item.result }}</p>
+    </article>
+  {% endfor %}
+</div>
+
+<h2>What this leadership style creates</h2>
+<div class="pill-grid">
+  <div class="pill">Clearer expectations</div>
+  <div class="pill">Better review habits</div>
+  <div class="pill">Stronger onboarding</div>
+  <div class="pill">Less rework</div>
+  <div class="pill">More stable delivery</div>
+  <div class="pill">More trust across teams</div>
+</div>
+

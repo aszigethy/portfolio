@@ -1,0 +1,47 @@
+---
+layout: page
+title: Projects
+permalink: /projects/
+lede: Case studies and major delivery work that show product thinking, architecture judgment, and measurable operational leverage.
+seo_title: Projects | Andrew Szigethy
+seo_description: Selected projects from Andrew Szigethy's work in software platforms, automation, observability, and engineering systems.
+---
+<p>
+  These projects show the common thread in Andrew's work: turning operational complexity into
+  software capability. Some are productized customer experiences, some are internal systems, and
+  some are delivery improvements that changed the economics of the work behind the scenes.
+</p>
+
+<div class="project-grid">
+  {% for project in site.data.projects %}
+    <article class="project-card">
+      <div class="project-card__title">
+        <h3>{{ project.title }}</h3>
+        <span class="project-card__label">{{ project.year }}</span>
+      </div>
+      <p>{{ project.summary }}</p>
+      <div class="tag-row">
+        <span class="tag">{{ project.stack }}</span>
+      </div>
+      <div class="stack">
+        <div class="note-card">
+          <strong>Problem</strong>
+          <p>{{ project.problem }}</p>
+        </div>
+        <div class="note-card">
+          <strong>Role</strong>
+          <p>{{ project.role }}</p>
+        </div>
+        <div class="note-card">
+          <strong>Outcome</strong>
+          <p>{{ project.outcome }}</p>
+        </div>
+        <div class="note-card">
+          <strong>Why it matters</strong>
+          <p>{{ project.impact }}</p>
+        </div>
+      </div>
+    </article>
+  {% endfor %}
+</div>
+

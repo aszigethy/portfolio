@@ -1,0 +1,30 @@
+---
+layout: page
+title: Writing
+permalink: /blog/
+lede: Long-form notes on engineering management, product architecture, observability, delivery systems, and technical leadership.
+seo_title: Writing | Andrew Szigethy
+seo_description: Blog index for Andrew Szigethy's writing on engineering management, architecture, platforms, and delivery systems.
+---
+<p>
+  The blog is designed to grow over time. Andrew will add new articles by creating Markdown files
+  in <code>_posts</code>, pushing to GitHub, and letting GitHub Pages publish the update.
+</p>
+
+<div class="blog-grid">
+  {% for post in site.posts %}
+    <article class="blog-card">
+      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y at %-I:%M %p ET" }}</time>
+      <a href="{{ post.url | relative_url }}"><h3>{{ post.title }}</h3></a>
+      <p>{{ post.excerpt | strip_html }}</p>
+      {% if post.tags %}
+        <div class="tag-row">
+          {% for tag in post.tags %}
+            <span class="tag">{{ tag }}</span>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </article>
+  {% endfor %}
+</div>
+

@@ -1,0 +1,17 @@
+title: Andrew Szigethy
+description: Engineering Manager, SWE & Architecture building software platforms, product systems, and engineering organizations that deliver measurable business value.
+timezone: America/New_York
+markdown: kramdown
+permalink: /blog/:slug/
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
+  - scope:
+      path: "_posts"
+    values:
+      layout: post
+      permalink: /blog/:slug/
+      author: Andrew Szigethy
+

@@ -1,0 +1,142 @@
+---
+layout: default
+title: Home
+seo_title: Andrew Szigethy | Engineering Manager, SWE & Architecture
+seo_description: Engineering Manager, SWE & Architecture building software platforms, product architecture, and engineering systems that scale.
+---
+<section class="hero">
+  <div>
+    <p class="eyebrow">Engineering Manager, SWE & Architecture</p>
+    <h1>Software platforms, stronger engineering systems, measurable business value.</h1>
+    <p class="hero__summary">
+      Andrew Szigethy is an engineering leader who specializes in software platforms, product
+      architecture, automation, observability, delivery systems, and engineering organization
+      maturity. He helps teams turn ambiguity into executable plans and turn operational
+      complexity into durable software leverage.
+    </p>
+    <div class="hero__actions">
+      <a class="button" href="{{ '/contact/' | relative_url }}">Contact</a>
+      <a class="button-secondary" href="{{ site.data.site.linkedin_url }}">LinkedIn</a>
+      <a class="button-ghost" href="{{ '/blog/' | relative_url }}">Read the blog</a>
+    </div>
+  </div>
+  <div class="hero__panel">
+    <div class="hero__portrait">
+      <img src="{{ site.data.site.photo_url | relative_url }}" alt="Andrew Szigethy portrait">
+    </div>
+    <strong>{{ site.data.site.name }}</strong>
+    <p>{{ site.data.site.headline }}</p>
+    <p>{{ site.data.site.bio }}</p>
+    <p><strong>Location</strong> {{ site.data.site.location }}</p>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Selected impact</h2>
+  <div class="metric-grid">
+    {% for metric in site.data.metrics %}
+      <div class="metric">
+        <strong>{{ metric.value }}{{ metric.suffix }}</strong>
+        <span>{{ metric.label }}</span>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="section">
+  <h2>What I bring</h2>
+  <div class="card-grid">
+    <div class="card">
+      <h3>Architecture judgment</h3>
+      <p>
+        Andrew is strongest where a company needs both strategic product thinking and practical
+        execution. He weighs security, extensibility, operating cost, and customer value together,
+        then helps teams make decisions that hold up over time.
+      </p>
+    </div>
+    <div class="card">
+      <h3>Delivery systems</h3>
+      <p>
+        He improves the mechanisms behind delivery, including code review, onboarding,
+        testing, CI/CD, documentation, and release readiness, so quality becomes repeatable.
+      </p>
+    </div>
+    <div class="card">
+      <h3>Product leverage</h3>
+      <p>
+        He repeatedly helps internal operational needs become customer-facing software products
+        and platforms that reduce manual effort, improve reliability, and support revenue.
+      </p>
+    </div>
+    <div class="card">
+      <h3>Leadership under pressure</h3>
+      <p>
+        He can lead through ambiguity, change, and conflict without making engineering slower.
+        That combination makes him a force multiplier in serious delivery environments.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Featured projects</h2>
+  <div class="project-grid">
+    {% assign featured_projects = site.data.projects | where: "featured", true %}
+    {% for project in featured_projects limit: 6 %}
+      <article class="project-card">
+        <div class="project-card__title">
+          <h3>{{ project.title }}</h3>
+          <span class="project-card__label">{{ project.year }}</span>
+        </div>
+        <p>{{ project.summary }}</p>
+        <div class="tag-row">
+          <span class="tag">{{ project.stack }}</span>
+        </div>
+        <p class="muted">{{ project.outcome }}</p>
+      </article>
+    {% endfor %}
+  </div>
+  <div class="page-actions" style="margin-top:1rem;">
+    <a class="button-secondary" href="{{ '/projects/' | relative_url }}">View all projects</a>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Leadership signals</h2>
+  <div class="stack">
+    {% for item in site.data.leadership limit: 3 %}
+      <div class="note-card">
+        <strong>{{ item.title }}</strong>
+        <p>{{ item.detail }}</p>
+        <p class="muted">{{ item.result }}</p>
+      </div>
+    {% endfor %}
+  </div>
+  <div class="page-actions" style="margin-top:1rem;">
+    <a class="button-secondary" href="{{ '/leadership/' | relative_url }}">Read leadership stories</a>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Writing</h2>
+  <div class="blog-grid">
+    {% for post in site.posts limit: 3 %}
+      <article class="blog-card">
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y at %-I:%M %p ET" }}</time>
+        <a href="{{ post.url | relative_url }}"><h3>{{ post.title }}</h3></a>
+        <p>{{ post.excerpt | strip_html }}</p>
+      </article>
+    {% endfor %}
+  </div>
+  <div class="page-actions" style="margin-top:1rem;">
+    <a class="button-secondary" href="{{ '/blog/' | relative_url }}">Browse all posts</a>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Contact</h2>
+  <p>{{ site.data.site.contact_note }}</p>
+  <div class="cta-row">
+    <a class="button" href="{{ '/contact/' | relative_url }}">Open contact page</a>
+  </div>
+</section>

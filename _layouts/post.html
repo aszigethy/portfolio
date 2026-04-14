@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<article class="post">
+  <header class="post__header">
+    <p class="eyebrow">Writing</p>
+    <h1>{{ page.title }}</h1>
+    <p class="post__meta">
+      <span>Published {{ page.date | date: "%B %-d, %Y at %-I:%M %p ET" }}</span>
+      {% if page.updated and page.updated != page.date %}
+        <span>Updated {{ page.updated | date: "%B %-d, %Y at %-I:%M %p ET" }}</span>
+      {% endif %}
+    </p>
+    {% if page.excerpt %}
+      <p class="lede">{{ page.excerpt }}</p>
+    {% endif %}
+    {% if page.tags %}
+      <div class="tag-row">
+        {% for tag in page.tags %}
+          <span class="tag">{{ tag }}</span>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </header>
+  <section class="section prose">
+    {{ content }}
+  </section>
+</article>
+

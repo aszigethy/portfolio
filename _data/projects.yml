@@ -1,0 +1,120 @@
+- title: Maestro
+  year: 2021
+  featured: true
+  summary: Original customer portal and BI platform that turned operational visibility into a product.
+  problem: Customers needed better visibility into system administration, monitoring, and performance.
+  role: Led the design and development from conception to delivery.
+  outcome: Reduced MTTR, improved visibility, and created the product foundation for later growth.
+  impact: Became the origin point for Andrew's flagship product leadership and later revenue-supporting work.
+  stack: Django, BI reporting, monitoring, vendor APIs
+
+- title: Maestro 2
+  year: 2025
+  featured: true
+  summary: Next-generation portal release with modernized UI, real-time BI, and stronger integrations.
+  problem: The portal needed a broader product surface, better analytics, and more scalable integrations.
+  role: Led the broader software organization through design, implementation, and delivery.
+  outcome: Expanded the flagship product into a stronger customer-facing platform with measurable business value.
+  impact: Strengthened the company's product story and supported sales with a more capable platform.
+  stack: Django, real-time BI, Cisco integrations, modern UI
+
+- title: Automated UC Migration
+  year: 2024
+  featured: true
+  summary: End-to-end migration workflow for mission-critical voice services across thousands of sites.
+  problem: Manual migration of voice services created risk, delay, and unnecessary operational load.
+  role: Architected, developed, and deployed the migration workflow.
+  outcome: Migrated more than 4,500 sites with zero downtime in less than six months.
+  impact: Proved the team could handle major infrastructure change with discipline and speed.
+  stack: Automation workflows, voice services, deployment orchestration
+
+- title: SDWAN and UC Auto-Provisioning
+  year: 2023
+  featured: true
+  summary: Large-scale automation framework that replaced manual provisioning with repeatable software.
+  problem: Provisioning was too manual and created cost, delay, and reliability risk.
+  role: Led the architecture and delivery of the provisioning frameworks.
+  outcome: Reduced manual provisioning effort by about 97 percent.
+  impact: Streamlined deployment of 40,000+ devices and materially improved operational leverage.
+  stack: Automation, SDWAN, UC systems, deployment workflows
+
+- title: Cisco Webex App Hub Auto-Provisioning Launch
+  year: 2024
+  featured: true
+  summary: Productized third-party phone provisioning and brought it into the Webex ecosystem.
+  problem: Third-party provisioning introduced workflow friction and slowed customer enablement.
+  role: Led the launch and real-time validation workflow.
+  outcome: Expanded reach and created a cleaner, more scalable provisioning path.
+  impact: Helped turn an operational need into a marketable product capability.
+  stack: Cisco Webex App Hub, validation workflows, provisioning automation
+
+- title: CradlePoint Install Automation
+  year: 2025
+  featured: true
+  summary: Automation for site installation work that dramatically reduced manual effort and risk.
+  problem: Site installs required too much manual coordination and carried reliability risk.
+  role: Led the cross-functional effort to automate the install process.
+  outcome: Reduced site install effort by 35x while lowering error rates.
+  impact: Improved delivery quality and reduced the cost of scale.
+  stack: Automation, install workflows, reliability improvements
+
+- title: ServiceNow CSM Emulation
+  year: 2024
+  featured: true
+  summary: Service request and support workflow model that aimed to scale customer-facing process handling.
+  problem: Support and request workflows needed a more scalable, software-shaped path.
+  role: Helped define direction, requirements, and contingency planning.
+  outcome: Reached strong completion on a generalized CSM emulation capability.
+  impact: Showed how Andrew applies product thinking to process heavy environments.
+  stack: ServiceNow, service workflows, intake design
+
+- title: Executive Dashboard Foundations
+  year: 2024
+  featured: true
+  summary: Dashboard groundwork that connects operational data to business-level visibility.
+  problem: Leadership needed a better way to see trends, performance, and delivery signals.
+  role: Shaped the upstream data and structure behind the dashboard.
+  outcome: Created a disciplined foundation for executive reporting and future expansion.
+  impact: Moved the team toward better decision support instead of isolated reporting.
+  stack: Data modeling, reporting, operational metrics
+
+- title: GitHub Governance and SDLC System-Building
+  year: 2025
+  featured: true
+  summary: Engineering standards work that improved contribution quality and review discipline.
+  problem: The organization needed clearer onboarding, better review habits, and stronger delivery standards.
+  role: Built the systems and expectations that support quality at scale.
+  outcome: Improved onboarding efficiency, reduced rework, and made quality easier to enforce.
+  impact: Turned standards into a delivery advantage instead of a bureaucratic burden.
+  stack: GitHub Actions, documentation, onboarding, review systems
+
+- title: ServiceNow Change Management Redesign
+  year: 2020
+  featured: false
+  summary: Change process redesign that made software delivery easier without losing compliance.
+  problem: The ITIL-style process created friction for engineering work.
+  role: Partnered with Change Management and ServiceNow teams to improve the workflow.
+  outcome: Adopted across the organization and improved delivery velocity.
+  impact: Reduced process friction while preserving governance.
+  stack: ServiceNow, workflow redesign, cross-org alignment
+
+- title: SaaS Portal Architecture Decision
+  year: 2020
+  featured: false
+  summary: Strategic architecture decision that chose a SaaS model over customer-hosted deployment.
+  problem: There was disagreement on where the new portal should live.
+  role: Led a structured review with engineering, networking, and stakeholders.
+  outcome: The portal launched as SaaS while still meeting data requirements.
+  impact: Balanced current customer needs with long-term product leverage.
+  stack: Product architecture, security, extensibility, hosting strategy
+
+- title: Puerto Rico Production Incident Hardening
+  year: 2020
+  featured: false
+  summary: Postmortem-driven systems improvement after a hotfix caused a timezone-related outage.
+  problem: A production hotfix affected about 30 stores in Puerto Rico.
+  role: Helped resolve the issue and led the hardening follow-up.
+  outcome: Tightened review, testing, and logging expectations.
+  impact: Converted an incident into stronger operational discipline.
+  stack: Monitoring, logging, review rigor, postmortem actioning
+

@@ -1,0 +1,37 @@
+- title: Build software organizations, not just task queues
+  detail: >
+    Andrew has helped shape ConnX into a more mature multi-team software organization by
+    building the R&D and Pre-Sales SWE team, the Core SWE and Architecture team, and the
+    Operational Development team.
+  result: This shows organizational design, not just project delivery.
+
+- title: Raise standards without slowing delivery
+  detail: >
+    He introduced stronger onboarding, documentation, CI/CD, review rigor, testing, and
+    contribution expectations so quality became easier to achieve and easier to repeat.
+  result: Teams can move faster when the baseline is clearer.
+
+- title: Resolve architecture debates with structure
+  detail: >
+    When the organization disagreed over SaaS versus customer-hosted deployment, Andrew
+    reframed the discussion around leverage, security, deployment speed, and product growth.
+  result: The result was a more scalable portal architecture that still met customer needs.
+
+- title: Turn incidents into better systems
+  detail: >
+    After the Puerto Rico outage, he treated the event as a signal to improve review, testing,
+    and logging expectations instead of treating it as a one-off operational problem.
+  result: The organization gained more durable safeguards from a hard lesson.
+
+- title: Step into gaps, then build the mechanism
+  detail: >
+    When PM capability was thin, Andrew stepped in long enough to stabilize execution and help
+    create stronger tracking and review habits rather than becoming a permanent substitute.
+  result: The team gained durable operating discipline instead of dependency.
+
+- title: Develop people through clarity and feedback
+  detail: >
+    He is at his best when helping engineers and leaders see the right answer more clearly,
+    especially when expectations are fuzzy or pressure is high.
+  result: The people around him can operate with more confidence and better judgment.
+

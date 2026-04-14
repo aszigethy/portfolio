@@ -1,0 +1,84 @@
+- title: Software Engineer I
+  dates: May 2017 to Aug 2018
+  phase: Junior Software Engineer
+  summary: >
+    Andrew began in a production-heavy environment where reliability, responsiveness, and
+    operational awareness mattered. He learned the business from the ground up and built
+    credibility through careful ticket processing, incident triage, and practical automation.
+  responsibilities:
+    - Ticket processing and incident triage
+    - Data automation and workflow cleanup
+    - Production awareness and customer service reliability
+    - Learning telecom and service operations
+    - Building fluency with Python and data workflows
+  anchors:
+    - Operational triage and data automation
+    - Early production ownership
+    - Habit formation around quality and responsiveness
+  outcome: >
+    Established the technical and operational habits that later supported platform and
+    architecture leadership.
+
+- title: Software Engineer II
+  dates: Aug 2018 to Sep 2020
+  phase: Mid-level Engineer
+  summary: >
+    In this phase, Andrew expanded from operational execution into real engineering ownership.
+    He improved monitoring and reporting, increased use of Python, JavaScript, SQL, and API
+    integrations, and began shaping systems instead of only implementing tasks.
+  responsibilities:
+    - Backend feature work and API integrations
+    - Monitoring and reporting improvements
+    - Internal automation and tooling
+    - Stronger technical ownership
+    - First systems-level influence
+  anchors:
+    - Network monitoring and reporting improvements
+    - Puerto Rico incident hardening
+    - ServiceNow change process redesign
+  outcome: >
+    Built the technical depth and judgment that set up his move into leadership and architecture.
+
+- title: Software Engineering Team Lead
+  dates: Sep 2020 to Apr 2022
+  phase: Senior Engineer and Team Lead
+  summary: >
+    Andrew moved beyond implementation into execution leadership, mentorship, and product
+    architecture influence. He improved delivery discipline, clarified requirements, and helped
+    launch the original customer portal work that later evolved into a flagship product line.
+  responsibilities:
+    - Technical leadership and mentorship
+    - Agile planning and delivery rigor
+    - Product architecture influence
+    - Cross-functional coordination
+    - Team morale and requirements clarity
+  anchors:
+    - Maestro customer portal launch
+    - Product architecture debate resolved toward SaaS
+    - Requirements clarity and UAT recovery
+  outcome: >
+    Proved he could lead both technical direction and team execution without losing delivery pace.
+
+- title: Engineering Manager, SWE & Architecture
+  dates: Apr 2022 to Present
+  phase: Engineering Manager
+  summary: >
+    Andrew now leads software direction, delivery systems, and engineering maturity at scale.
+    He has helped build three software teams, introduced stronger SDLC standards, and owned the
+    architecture and delivery of major automation systems that reduced manual work and increased
+    revenue-supporting product capability.
+  responsibilities:
+    - Leadership of globally distributed engineers
+    - SDLC standards and review rigor
+    - CI/CD and deployment discipline
+    - Architecture, platform, and product guidance
+    - Monthly performance and strategy reviews
+  anchors:
+    - Maestro 2
+    - SDWAN and UC auto-provisioning
+    - Automated UC migration
+    - CradlePoint install automation
+  outcome: >
+    Shifted impact from individual delivery to organizational leverage, platform maturity, and
+    repeatable execution systems.
+
