@@ -1,7 +1,7 @@
 ---
 title: Standards Are a Delivery System
-date: 2026-03-18 09:00:00 -0400
-updated: 2026-03-18 09:00:00 -0400
+date: 2026-03-18 16:08:00 -0400
+updated: 2026-03-18 16:08:00 -0400
 excerpt: Good standards are not bureaucracy. They are one of the most reliable ways to reduce rework, improve quality, and make engineering teams faster over time.
 tags:
   - engineering management
@@ -24,16 +24,16 @@ That is not paperwork. That is a delivery system.
 
 When standards are weak, each project has to rediscover the rules.
 
-What belongs in a pull request.  
-How much testing is expected.  
-Who needs to review.  
-What the release bar is.  
-How documentation should be updated.  
-What happens when requirements change.  
-How fast a reviewer should respond.  
+What belongs in a pull request.
+How much testing is expected.
+Who needs to review.
+What the release bar is.
+How documentation should be updated.
+What happens when requirements change.
+How fast a reviewer should respond.
 Whether a deployment is actually ready.
 
-None of those questions are hard individually. The problem is that if the team keeps answering them ad hoc, the cost compounds. Reviews become inconsistent. New engineers take longer to ramp. Quality depends too much on who happens to be involved that day. Rework increases. Frustration increases. People start calling avoidable ambiguity “just how things are.”
+None of those questions are hard individually. The problem is that if the team keeps answering them ad hoc, the cost compounds. Reviews become inconsistent. New engineers take longer to ramp. Quality depends too much on who happens to be involved that day. Rework increases. Frustration increases. People start calling avoidable ambiguity "just how things are."
 
 That is the point where standards stop being optional.
 
@@ -98,16 +98,16 @@ To me, dependable engineering is not just about having talented people. It is ab
 
 That is what standards are for.
 
-They make it easier for a new engineer to contribute.  
-They make it easier for a reviewer to give useful feedback.  
-They make it easier for a manager to see risk early.  
-They make it easier for a team to deliver well under pressure.  
+They make it easier for a new engineer to contribute.
+They make it easier for a reviewer to give useful feedback.
+They make it easier for a manager to see risk early.
+They make it easier for a team to deliver well under pressure.
 
 And over time, they create something even more valuable than efficiency. They create trust.
 
-Trust that code has been reviewed properly.  
-Trust that releases are ready.  
-Trust that expectations are shared.  
+Trust that code has been reviewed properly.
+Trust that releases are ready.
+Trust that expectations are shared.
 Trust that quality does not depend on luck.
 
 That is why I think standards deserve more respect than they usually get.

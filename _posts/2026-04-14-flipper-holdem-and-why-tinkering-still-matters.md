@@ -1,7 +1,7 @@
 ---
 title: Flipper Hold'em and Why Tinkering Still Matters
-date: 2026-04-14 10:30:00 -0400
-updated: 2026-04-14 10:30:00 -0400
+date: 2026-04-14 13:26:00 -0400
+updated: 2026-04-14 13:26:00 -0400
 excerpt: A small side project for Flipper Zero reminded me why constrained hardware, playful software, and hands-on tinkering still teach some of the best engineering lessons.
 tags:
   - side projects
@@ -59,7 +59,7 @@ Games are very unforgiving about state.
 
 If the turn order is wrong, if betting logic is ambiguous, if a save does not restore cleanly, or if a showdown does not resolve correctly, the user knows immediately. That makes game projects a great place to sharpen your instincts around state machines and edge cases.
 
-### 3. “Fun” is a valid engineering constraint
+### 3. "Fun" is a valid engineering constraint
 
 I think engineers sometimes underrate this.
 
@@ -75,10 +75,10 @@ Playful projects keep experimentation alive. They invite learning without over-s
 
 Projects like Flipper Hold'em are not separate from professional growth. They are one of the ways I maintain it.
 
-They keep me close to the joy of building.  
-They keep me honest about interface quality.  
-They keep me interested in hardware-software boundaries.  
-They keep me comfortable with small systems where every decision matters.  
+They keep me close to the joy of building.
+They keep me honest about interface quality.
+They keep me interested in hardware-software boundaries.
+They keep me comfortable with small systems where every decision matters.
 
 And maybe most importantly, they remind me that the best engineers are usually the ones who still like to tinker.
 

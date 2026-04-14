@@ -1,7 +1,7 @@
 ---
 title: Architecture Decisions Should Age Well
-date: 2026-02-12 09:00:00 -0500
-updated: 2026-02-12 09:00:00 -0500
+date: 2026-02-12 11:43:00 -0500
+updated: 2026-02-12 11:43:00 -0500
 excerpt: Good architecture is not just about getting the current release out the door. It is about making sure the system still makes sense after the business grows, the team changes, and the next wave of requirements arrives.
 tags:
   - product architecture

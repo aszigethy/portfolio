@@ -12,18 +12,19 @@ seo_description: Selected projects from Andrew Szigethy's work in software platf
   some are delivery improvements that changed the economics of the work behind the scenes.
 </p>
 
+{% assign sorted_projects = site.data.projects | sort: "year" | reverse %}
 <div class="project-grid">
-  {% for project in site.data.projects %}
+  {% for project in sorted_projects %}
     <article class="project-card">
       <div class="project-card__title">
         <h3>{{ project.title }}</h3>
         <span class="project-card__label">{{ project.year }}</span>
       </div>
-      <p>{{ project.summary }}</p>
+      <p class="project-card__summary">{{ project.summary }}</p>
       <div class="tag-row">
         <span class="tag">{{ project.stack }}</span>
       </div>
-      <div class="stack">
+      <div class="project-card__details">
         <div class="note-card">
           <strong>Problem</strong>
           <p>{{ project.problem }}</p>
@@ -44,4 +45,3 @@ seo_description: Selected projects from Andrew Szigethy's work in software platf
     </article>
   {% endfor %}
 </div>
-

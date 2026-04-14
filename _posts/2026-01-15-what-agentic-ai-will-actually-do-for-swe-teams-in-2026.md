@@ -1,7 +1,7 @@
 ---
 title: What Agentic AI Will Actually Do for SWE Teams in 2026
-date: 2026-01-15 09:00:00 -0500
-updated: 2026-01-15 09:00:00 -0500
+date: 2026-01-15 14:17:00 -0500
+updated: 2026-01-15 14:17:00 -0500
 excerpt: In 2026, agentic AI will stop being treated like autocomplete and start being managed like a new class of engineering contributor. The teams that win will be the ones that learn how to govern it well.
 tags:
   - agentic ai
@@ -28,11 +28,11 @@ That means engineering managers and senior engineers need to think less about wh
 
 In my view, agentic AI is strongest today in five areas:
 
-1. Code understanding in unfamiliar parts of a system  
-2. Drafting and refining tests  
-3. Refactors, migrations, and repetitive cleanup  
-4. Documentation and operational runbooks  
-5. Well-scoped feature work with clear interfaces and acceptance criteria  
+1. Code understanding in unfamiliar parts of a system
+2. Drafting and refining tests
+3. Refactors, migrations, and repetitive cleanup
+4. Documentation and operational runbooks
+5. Well-scoped feature work with clear interfaces and acceptance criteria
 
 That is already enough to materially change team velocity.
 
@@ -68,8 +68,8 @@ I would not let the tool define architecture. I would not let it own security bo
 
 That is not hesitation. That is healthy system design.
 
-The right role for agentic AI is not “engineer replacement.”  
-It is “parallel, low-ego, high-throughput contributor operating inside human-owned guardrails.”
+The right role for agentic AI is not "engineer replacement."
+It is "parallel, low-ego, high-throughput contributor operating inside human-owned guardrails."
 
 ## The security concerns are real
 
@@ -114,7 +114,7 @@ By the end of 2026, strong software teams will treat agentic AI the way strong i
 
 Some work will still be done manually because that is the right choice. But a growing portion of code understanding, repetitive implementation, documentation, testing, and maintenance work will be delegated. Teams will increasingly operate with both synchronous pair-style AI and asynchronous background agents.
 
-The winners will not be the teams with the most tools.  
+The winners will not be the teams with the most tools.
 They will be the teams with the clearest standards for how those tools are used.
 
 That is the future I am in favor of.
