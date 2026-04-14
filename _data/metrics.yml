@@ -1,6 +1,6 @@
 - value: "30"
   suffix: "+"
-  label: Engineers led across global teams
+  label: Engineers led across global teams concurrently
 - value: "97"
   suffix: "%"
   label: Manual provisioning effort reduced
@@ -12,7 +12,7 @@
   label: Sites supported across major rollouts
 - value: "35"
   suffix: "x"
-  label: Reduction in site install effort
+  label: Increase in operational throughput
 - value: "99.999"
   suffix: "%"
   label: Web application uptime
