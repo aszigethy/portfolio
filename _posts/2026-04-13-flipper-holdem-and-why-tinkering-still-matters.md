@@ -1,7 +1,7 @@
 ---
 title: Flipper Hold'em and Why Tinkering Still Matters
-date: 2026-04-14 13:26:00 -0400
-updated: 2026-04-14 13:26:00 -0400
+date: 2026-04-13 13:26:00 -0400
+updated: 2026-04-13 13:26:00 -0400
 excerpt: A small side project for Flipper Zero reminded me why constrained hardware, playful software, and hands-on tinkering still teach some of the best engineering lessons.
 tags:
   - side projects
@@ -16,7 +16,7 @@ At work, the stakes are higher, the systems are larger, and the coordination ove
 
 That is part of why I built **Flipper Hold'em**, a native single-player Texas Hold'em game for Flipper Zero.
 
-The project is exactly the kind of thing I enjoy in my spare time: a little unusual, a little nerdy, constrained in all the right ways, and just technical enough to force good decisions. It combines several things I like at once: game logic, small-device UX, embedded-ish constraints, randomness, state management, and the simple satisfaction of making a handheld device do something it was never strictly required to do. The public repo is here for anyone curious: `code-phreak/flipper-holdem`.
+The project is exactly the kind of thing I enjoy in my spare time: a little unusual, a little nerdy, constrained in all the right ways, and just technical enough to force good decisions. It combines several things I like at once: game logic, small-device UX, embedded-ish constraints, randomness, state management, and the simple satisfaction of making a handheld device do something it was never strictly required to do. The public repo is here for anyone curious: [code-phreak/flipper-holdem](https://github.com/code-phreak/flipper-holdem).
 
 ## Why Flipper Zero is fun to build for
 

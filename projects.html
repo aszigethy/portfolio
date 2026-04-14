@@ -6,13 +6,13 @@ lede: Case studies and major delivery work that show product thinking, architect
 seo_title: Projects | Andrew Szigethy
 seo_description: Selected projects from Andrew Szigethy's work in software platforms, automation, observability, and engineering systems.
 ---
-<p>
+<p class="page-intro">
   These projects show the common thread in Andrew's work: turning operational complexity into
   software capability. Some are productized customer experiences, some are internal systems, and
   some are delivery improvements that changed the economics of the work behind the scenes.
 </p>
 
-{% assign sorted_projects = site.data.projects | sort: "year" | reverse %}
+{% assign sorted_projects = site.data.projects | sort: "sort_key" | reverse %}
 <div class="project-grid">
   {% for project in sorted_projects %}
     <article class="project-card">
@@ -22,7 +22,10 @@ seo_description: Selected projects from Andrew Szigethy's work in software platf
       </div>
       <p class="project-card__summary">{{ project.summary }}</p>
       <div class="tag-row">
-        <span class="tag">{{ project.stack }}</span>
+        {% assign stack_items = project.stack | split: ", " %}
+        {% for item in stack_items %}
+          <span class="tag">{{ item }}</span>
+        {% endfor %}
       </div>
       <div class="project-card__details">
         <div class="note-card">

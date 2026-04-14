@@ -19,8 +19,9 @@
 
 - title: Turn incidents into better systems
   detail: >
-    After the Puerto Rico outage, he treated the event as a signal to improve review, testing,
-    and logging expectations instead of treating it as a one-off operational problem.
+    After a software bug caused a service-impacting outage, Andrew treated the event as a signal
+    to improve review, testing, and logging expectations instead of treating it as a one-off
+    operational problem.
   result: The organization gained more durable safeguards from a hard lesson.
 
 - title: Step into gaps, then build the mechanism
@@ -34,4 +35,3 @@
     He is at his best when helping engineers and leaders see the right answer more clearly,
     especially when expectations are fuzzy or pressure is high.
   result: The people around him can operate with more confidence and better judgment.
-

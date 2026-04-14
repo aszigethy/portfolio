@@ -1,5 +1,6 @@
 - title: Maestro
   year: 2021
+  sort_key: "2021-04"
   featured: true
   summary: Original customer portal and BI platform that turned operational visibility into a product.
   problem: Customers needed better visibility into system administration, monitoring, and performance.
@@ -8,8 +9,9 @@
   impact: Became the origin point for Andrew's flagship product leadership and later revenue-supporting work.
   stack: Django, BI reporting, monitoring, vendor APIs
 
-- title: Maestro 2
+- title: MaestroIQ
   year: 2025
+  sort_key: "2025-06"
   featured: true
   summary: Next-generation portal release with modernized UI, real-time BI, and stronger integrations.
   problem: The portal needed a broader product surface, better analytics, and more scalable integrations.
@@ -20,6 +22,7 @@
 
 - title: Automated UC Migration
   year: 2024
+  sort_key: "2024-05"
   featured: true
   summary: End-to-end migration workflow for mission-critical voice services across thousands of sites.
   problem: Manual migration of voice services created risk, delay, and unnecessary operational load.
@@ -30,6 +33,7 @@
 
 - title: SDWAN and UC Auto-Provisioning
   year: 2023
+  sort_key: "2023-03"
   featured: true
   summary: Large-scale automation framework that replaced manual provisioning with repeatable software.
   problem: Provisioning was too manual and created cost, delay, and reliability risk.
@@ -40,6 +44,7 @@
 
 - title: Cisco Webex App Hub Auto-Provisioning Launch
   year: 2024
+  sort_key: "2024-04"
   featured: true
   summary: Productized third-party phone provisioning and brought it into the Webex ecosystem.
   problem: Third-party provisioning introduced workflow friction and slowed customer enablement.
@@ -50,6 +55,7 @@
 
 - title: CradlePoint Install Automation
   year: 2025
+  sort_key: "2025-05"
   featured: true
   summary: Automation for site installation work that dramatically reduced manual effort and risk.
   problem: Site installs required too much manual coordination and carried reliability risk.
@@ -59,7 +65,8 @@
   stack: Automation, install workflows, reliability improvements
 
 - title: ServiceNow CSM Emulation
-  year: 2024
+  year: 2026
+  sort_key: "2026-02"
   featured: true
   summary: Service request and support workflow model that aimed to scale customer-facing process handling.
   problem: Support and request workflows needed a more scalable, software-shaped path.
@@ -69,17 +76,19 @@
   stack: ServiceNow, service workflows, intake design
 
 - title: Executive Dashboard Foundations
-  year: 2024
+  year: 2026
+  sort_key: "2026-03"
   featured: true
-  summary: Dashboard groundwork that connects operational data to business-level visibility.
+  summary: AI and ML-oriented dashboard groundwork that connects operational data to executive-level visibility.
   problem: Leadership needed a better way to see trends, performance, and delivery signals.
   role: Shaped the upstream data and structure behind the dashboard.
-  outcome: Created a disciplined foundation for executive reporting and future expansion.
-  impact: Moved the team toward better decision support instead of isolated reporting.
-  stack: Data modeling, reporting, operational metrics
+  outcome: Created a disciplined foundation for executive reporting, AI and ML analysis, and future platform expansion.
+  impact: Moved the team toward better decision support and more intelligent operational analysis instead of isolated reporting.
+  stack: Data modeling, reporting, AI/ML analytics, operational metrics
 
 - title: GitHub Governance and SDLC System-Building
-  year: 2025
+  year: 2022
+  sort_key: "2022-02"
   featured: true
   summary: Engineering standards work that improved contribution quality and review discipline.
   problem: The organization needed clearer onboarding, better review habits, and stronger delivery standards.
@@ -90,6 +99,7 @@
 
 - title: ServiceNow Change Management Redesign
   year: 2020
+  sort_key: "2020-03"
   featured: false
   summary: Change process redesign that made software delivery easier without losing compliance.
   problem: The ITIL-style process created friction for engineering work.
@@ -100,6 +110,7 @@
 
 - title: SaaS Portal Architecture Decision
   year: 2020
+  sort_key: "2020-02"
   featured: false
   summary: Strategic architecture decision that chose a SaaS model over customer-hosted deployment.
   problem: There was disagreement on where the new portal should live.
@@ -108,13 +119,13 @@
   impact: Balanced current customer needs with long-term product leverage.
   stack: Product architecture, security, extensibility, hosting strategy
 
-- title: Puerto Rico Production Incident Hardening
-  year: 2020
+- title: Service-Impacting Production Incident Hardening
+  year: 2021
+  sort_key: "2021-01"
   featured: false
   summary: Postmortem-driven systems improvement after a hotfix caused a timezone-related outage.
-  problem: A production hotfix affected about 30 stores in Puerto Rico.
+  problem: A production hotfix caused a service-impacting incident across about 30 stores.
   role: Helped resolve the issue and led the hardening follow-up.
   outcome: Tightened review, testing, and logging expectations.
   impact: Converted an incident into stronger operational discipline.
   stack: Monitoring, logging, review rigor, postmortem actioning
-

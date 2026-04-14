@@ -1,8 +1,12 @@
 title: Andrew Szigethy
 description: Engineering Manager, SWE & Architecture building software platforms, product systems, and engineering organizations that deliver measurable business value.
+url: https://aszigethy.github.io
+baseurl: /portfolio
+repository: aszigethy/portfolio
 timezone: America/New_York
 markdown: kramdown
 permalink: /blog/:slug/
+future: true
 defaults:
   - scope:
       path: ""
@@ -14,4 +18,3 @@ defaults:
       layout: post
       permalink: /blog/:slug/
       author: Andrew Szigethy
-

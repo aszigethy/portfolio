@@ -2,8 +2,8 @@
 layout: default
 ---
 <article class="post">
+  <a class="post__back" href="{{ '/blog/' | relative_url }}">&larr; Back to Writing</a>
   <header class="post__header">
-    <a class="post__back" href="{{ '/blog/' | relative_url }}">Back to Writing</a>
     <p class="eyebrow">Writing</p>
     <h1>{{ page.title }}</h1>
     <p class="post__meta">
@@ -18,7 +18,7 @@ layout: default
     {% if page.tags %}
       <div class="tag-row">
         {% for tag in page.tags %}
-          <span class="tag">{{ tag }}</span>
+          <a class="tag" href="{{ '/blog/' | relative_url }}?tag={{ tag | url_encode }}">{{ tag }}</a>
         {% endfor %}
       </div>
     {% endif %}

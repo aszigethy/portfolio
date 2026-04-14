@@ -1,6 +1,6 @@
 {% assign meta_title = page.seo_title | default: page.title | default: site.title %}
 {% assign meta_description = page.seo_description | default: page.excerpt | default: site.description %}
-{% assign canonical_root = site.github.url | default: site.url | default: '' %}
+{% assign canonical_root = site.url | append: site.baseurl | default: '' %}
 {% assign canonical_path = page.url | replace: 'index.html', '' %}
 {% assign canonical_url = canonical_root | append: canonical_path %}
 <meta charset="utf-8">
@@ -51,4 +51,3 @@
 }
 </script>
 {% endif %}
-

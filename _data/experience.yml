@@ -34,7 +34,7 @@
     - First systems-level influence
   anchors:
     - Network monitoring and reporting improvements
-    - Puerto Rico incident hardening
+    - Service-impacting incident hardening
     - ServiceNow change process redesign
   outcome: >
     Built the technical depth and judgment that set up his move into leadership and architecture.
@@ -74,11 +74,10 @@
     - Architecture, platform, and product guidance
     - Monthly performance and strategy reviews
   anchors:
-    - Maestro 2
+    - MaestroIQ
     - SDWAN and UC auto-provisioning
     - Automated UC migration
     - CradlePoint install automation
   outcome: >
     Shifted impact from individual delivery to organizational leverage, platform maturity, and
     repeatable execution systems.
-

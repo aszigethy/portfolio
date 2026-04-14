@@ -4,7 +4,7 @@ This repository maintains a professional portfolio website for Andrew Szigethy.
 
 ## What is included
 
-- Home, About, Experience, Projects, Leadership, Writing, and Contact pages
+- Home, About, Experience, Projects, Leadership, and Writing pages
 - Blog posts stored as Markdown files in `_posts`
 - Public portfolio content managed through source files
 - A small public blog with file-based article content
