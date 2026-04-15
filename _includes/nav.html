@@ -8,11 +8,12 @@
       </span>
     </a>
     <nav class="site-nav" aria-label="Primary">
+      {% assign current_url = page.url | default: '/' %}
       <a href="{{ '/about/' | relative_url }}"{% if page.url == '/about/' %} aria-current="page"{% endif %}>About</a>
       <a href="{{ '/experience/' | relative_url }}"{% if page.url == '/experience/' %} aria-current="page"{% endif %}>Experience</a>
       <a href="{{ '/projects/' | relative_url }}"{% if page.url == '/projects/' %} aria-current="page"{% endif %}>Projects</a>
       <a href="{{ '/leadership/' | relative_url }}"{% if page.url == '/leadership/' %} aria-current="page"{% endif %}>Leadership</a>
-      <a href="{{ '/blog/' | relative_url }}"{% if page.url == '/blog/' %} aria-current="page"{% endif %}>Writing</a>
+      <a href="{{ '/blog/' | relative_url }}"{% if current_url == '/blog/' or current_url contains '/blog/' %} aria-current="page"{% endif %}>Writing</a>
     </nav>
   </div>
 </header>

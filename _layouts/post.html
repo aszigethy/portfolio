@@ -18,7 +18,7 @@ layout: default
     {% if page.tags %}
       <div class="tag-row">
         {% for tag in page.tags %}
-          <a class="tag" href="{{ '/blog/' | relative_url }}?tag={{ tag | url_encode }}">{{ tag }}</a>
+          <a class="tag" href="{{ '/blog/' | relative_url }}?tags={{ tag | url_encode }}">{{ tag }}</a>
         {% endfor %}
       </div>
     {% endif %}
