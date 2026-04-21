@@ -6,11 +6,10 @@ lede: A linear progression from junior engineering work to org-level software le
 seo_title: Experience | Andrew Szigethy
 seo_description: Andrew Szigethy's role progression, responsibilities, and leadership scope across software engineering and architecture.
 ---
-<p class="page-intro">
-  The timeline below separates Andrew's early growth into clearer stages so the progression reads
-  the way it actually developed: from operational engineering, to mid-level software ownership, to
-  team lead, and then to his current role as Engineering Manager, SWE & Architecture.
-</p>
+<section class="page-description">
+  <h2>Description</h2>
+  <p class="page-intro">The timeline below separates Andrew's early growth into clearer stages so the progression reads the way it actually developed: from operational engineering, to mid-level software ownership, to team lead, and then to his current role as Engineering Manager, SWE &amp; Architecture.</p>
+</section>
 
 <div class="timeline">
   {% for role in site.data.experience %}
@@ -18,9 +17,11 @@ seo_description: Andrew Szigethy's role progression, responsibilities, and leade
       <div class="timeline-card__header">
         <div>
           <p class="eyebrow">{{ role.phase }}</p>
-          <h3>{{ role.title }}</h3>
+          <div class="timeline-card__heading-row">
+            <h3>{{ role.title }}</h3>
+            <p>{{ role.dates }}</p>
+          </div>
         </div>
-        <p>{{ role.dates }}</p>
       </div>
       <p>{{ role.summary }}</p>
       <strong>Core responsibilities</strong>
@@ -41,9 +42,4 @@ seo_description: Andrew Szigethy's role progression, responsibilities, and leade
 </div>
 
 <h2>Leadership scope today</h2>
-<p>
-  Andrew's current role is best understood as the point where his impact shifted from individual
-  and team-level delivery into broader software organizational leadership. He leads the Core SWE
-  and Architecture team, advises the other software disciplines, conducts monthly performance and
-  strategy reviews, and helps shape the standards that make delivery more predictable.
-</p>
+<p>Andrew's current role is best understood as the point where his impact shifted from individual and team-level delivery into broader software organizational leadership. He leads the Core SWE and Architecture team, advises the other software disciplines, conducts monthly performance and strategy reviews, and helps shape the standards that make delivery more predictable.</p>

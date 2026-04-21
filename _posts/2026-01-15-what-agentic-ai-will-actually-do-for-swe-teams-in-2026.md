@@ -4,7 +4,7 @@ date: 2026-01-15 14:17:00 -0500
 updated: 2026-01-15 14:17:00 -0500
 excerpt: In 2026, agentic AI will stop being treated like autocomplete and start being managed like a new class of engineering contributor. The teams that win will be the ones that learn how to govern it well.
 tags:
-  - agentic ai
+  - Agentic AI
   - engineering management
   - software development
   - security

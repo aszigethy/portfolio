@@ -17,7 +17,7 @@ seo_description: Engineering Manager, SWE & Architecture building software platf
     <div class="hero__actions">
       <a class="button" href="mailto:{{ site.data.site.email }}">Email</a>
       <a class="button-secondary" href="{{ site.data.site.linkedin_url }}" target="_blank" rel="noreferrer">LinkedIn</a>
-      <a class="button-ghost" href="{{ '/blog/' | relative_url }}">Read the blog</a>
+      <a class="button-secondary" href="{{ '/blog/' | relative_url }}">Read the blog</a>
     </div>
   </div>
   <div class="hero__panel">
@@ -43,7 +43,7 @@ seo_description: Engineering Manager, SWE & Architecture building software platf
   </div>
   <div class="metric-grid">
     {% for metric in site.data.metrics %}
-      <div class="metric">
+<div class="metric">
         <strong>{{ metric.value }}{{ metric.suffix }}</strong>
         <span>{{ metric.label }}</span>
       </div>
@@ -61,32 +61,19 @@ seo_description: Engineering Manager, SWE & Architecture building software platf
   <div class="card-grid">
     <div class="card home-profile-card">
       <h3>Architecture judgment</h3>
-      <p>
-        Andrew is strongest where a company needs both strategic product thinking and practical
-        execution. He weighs security, extensibility, operating cost, and customer value together,
-        then helps teams make decisions that hold up over time.
-      </p>
+      <p>Andrew is strongest where a company needs both strategic product thinking and practical execution. He weighs security, extensibility, operating cost, and customer value together, then helps teams make decisions that hold up over time.</p>
     </div>
     <div class="card home-profile-card">
       <h3>Delivery systems</h3>
-      <p>
-        He improves the mechanisms behind delivery, including code review, onboarding,
-        testing, CI/CD, documentation, and release readiness, so quality becomes repeatable.
-      </p>
+      <p>He improves the mechanisms behind delivery, including code review, onboarding, testing, CI/CD, documentation, and release readiness, so quality becomes repeatable.</p>
     </div>
     <div class="card home-profile-card">
       <h3>Product leverage</h3>
-      <p>
-        He repeatedly helps internal operational needs become customer-facing software products
-        and platforms that reduce manual effort, improve reliability, and support revenue.
-      </p>
+      <p>He repeatedly helps internal operational needs become customer-facing software products and platforms that reduce manual effort, improve reliability, and support revenue.</p>
     </div>
     <div class="card home-profile-card">
       <h3>Leadership under pressure</h3>
-      <p>
-        He can lead through ambiguity, change, and conflict without making engineering slower.
-        That combination makes him a force multiplier in serious delivery environments.
-      </p>
+      <p>He can lead through ambiguity, change, and conflict without making engineering slower. That combination makes him a force multiplier in serious delivery environments.</p>
     </div>
   </div>
 </section>
@@ -105,7 +92,7 @@ seo_description: Engineering Manager, SWE & Architecture building software platf
   </div>
   <div class="project-grid">
     {% for project in featured_projects limit: 6 %}
-      <article class="project-card home-featured-project">
+<article class="project-card home-featured-project">
         <div class="project-card__title">
           <h3>{{ project.title }}</h3>
           <span class="project-card__label">{{ project.year }}</span>
@@ -117,7 +104,7 @@ seo_description: Engineering Manager, SWE & Architecture building software platf
             <span class="tag">{{ item }}</span>
           {% endfor %}
         </div>
-        <p class="muted">{{ project.outcome }}</p>
+        <p class="muted">Outcome: {{ project.outcome }}</p>
       </article>
     {% endfor %}
   </div>
@@ -135,7 +122,7 @@ seo_description: Engineering Manager, SWE & Architecture building software platf
   </div>
   <div class="stack">
     {% for item in site.data.leadership limit: 3 %}
-      <div class="note-card">
+<div class="note-card">
         <strong>{{ item.title }}</strong>
         <p>{{ item.detail }}</p>
         <p class="muted">{{ item.result }}</p>
@@ -157,14 +144,22 @@ seo_description: Engineering Manager, SWE & Architecture building software platf
   </div>
   <div class="blog-grid">
     {% for post in site.posts limit: 3 %}
-      <article class="blog-card">
+<article class="blog-card">
+        <a class="blog-card__link" href="{{ post.url | relative_url }}" aria-label="Open {{ post.title | escape }}"></a>
         <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y at %-I:%M %p ET" }}</time>
-        <a href="{{ post.url | relative_url }}"><h3>{{ post.title }}</h3></a>
+        <h3>{{ post.title }}</h3>
         <p class="blog-card__excerpt">{{ post.excerpt | strip_html }}</p>
         {% if post.tags %}
           <div class="tag-row">
             {% for tag in post.tags limit: 2 %}
-              <a class="tag" href="{{ '/blog/' | relative_url }}?tags={{ tag | url_encode }}">{{ tag }}</a>
+              {% assign words = tag | split: ' ' %}
+              {% capture display_tag %}
+                {% for word in words %}
+                  {% assign lower_word = word | downcase %}
+                  {% if lower_word == 'ai' %}AI{% elsif lower_word == 'swe' %}SWE{% else %}{{ word | capitalize }}{% endif %}{% unless forloop.last %} {% endunless %}
+                {% endfor %}
+              {% endcapture %}
+              <a class="tag tag--blog" href="{{ '/blog/' | relative_url }}?tags={{ tag | url_encode }}">{{ display_tag | strip }}</a>
             {% endfor %}
           </div>
         {% endif %}

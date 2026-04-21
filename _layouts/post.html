@@ -4,7 +4,6 @@ layout: default
 <article class="post">
   <a class="post__back" href="{{ '/blog/' | relative_url }}">&larr; Back to Writing</a>
   <header class="post__header">
-    <p class="eyebrow">Writing</p>
     <h1>{{ page.title }}</h1>
     <p class="post__meta">
       <span>Published {{ page.date | date: "%B %-d, %Y at %-I:%M %p ET" }}</span>
@@ -18,7 +17,14 @@ layout: default
     {% if page.tags %}
       <div class="tag-row">
         {% for tag in page.tags %}
-          <a class="tag" href="{{ '/blog/' | relative_url }}?tags={{ tag | url_encode }}">{{ tag }}</a>
+          {% assign words = tag | split: ' ' %}
+          {% capture display_tag %}
+            {% for word in words %}
+              {% assign lower_word = word | downcase %}
+              {% if lower_word == 'ai' %}AI{% elsif lower_word == 'swe' %}SWE{% else %}{{ word | capitalize }}{% endif %}{% unless forloop.last %} {% endunless %}
+            {% endfor %}
+          {% endcapture %}
+          <a class="tag tag--blog" href="{{ '/blog/' | relative_url }}?tags={{ tag | url_encode }}">{{ display_tag | strip }}</a>
         {% endfor %}
       </div>
     {% endif %}

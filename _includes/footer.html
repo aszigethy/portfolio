@@ -1,12 +1,15 @@
 <footer class="site-footer">
   <div class="site-footer__inner">
-    <div>
-      <strong>{{ site.data.site.name }}</strong>
-      <p>{{ site.data.site.headline }}</p>
+    <div class="site-footer__row site-footer__row--top">
+      <a href="{{ '/' | relative_url }}"><strong>{{ site.data.site.name }}</strong></a>
+      <div class="site-footer__links">
+        <a href="mailto:{{ site.data.site.email }}">Email</a>
+        <a href="{{ site.data.site.linkedin_url }}" target="_blank" rel="noreferrer">LinkedIn</a>
+      </div>
     </div>
-    <div class="site-footer__links">
-      <a href="mailto:{{ site.data.site.email }}">Email</a>
-      <a href="{{ site.data.site.linkedin_url }}" target="_blank" rel="noreferrer">LinkedIn</a>
+    <div class="site-footer__row site-footer__row--bottom">
+      <p>{{ site.data.site.headline }}</p>
+      <p>&copy; 2026</p>
     </div>
   </div>
 </footer>
