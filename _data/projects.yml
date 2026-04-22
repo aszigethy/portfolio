@@ -7,18 +7,18 @@
   role: Led the design and development from conception to delivery.
   outcome: Reduced MTTR, improved visibility, and created the product foundation for later growth.
   impact: Became the origin point for Andrew's flagship product leadership and later revenue-supporting work.
-  stack: Django, BI reporting, monitoring, vendor APIs
+  stack: Django, ELK, LogicMonitor, Python, vendor APIs
 
 - title: MaestroIQ
   year: 2025
   sort_key: "2025-06"
   featured: true
-  summary: Next-generation portal release with modernized UI, real-time BI, and stronger integrations.
-  problem: The portal needed a broader product surface, better analytics, and more scalable integrations.
-  role: Led the broader software organization through design, implementation, and delivery.
-  outcome: Expanded the flagship product into a stronger customer-facing platform with measurable business value.
-  impact: Strengthened the company's product story and supported sales with a more capable platform.
-  stack: Django, real-time BI, Cisco integrations, modern UI
+  summary: Complete portal rewrite that turned a functional utility into a more polished and scalable customer-facing product.
+  problem: The original portal needed broader product coverage, stronger analytics, cleaner navigation, and a higher standard of usability to support growth.
+  role: Led a 12+ person cross-functional team through strategy, planning, delivery, and release management while keeping the platform stable for live tenants.
+  outcome: Shipped three releases, added a Plotly Dash analytics module, completed an accessibility audit, and materially improved the product's user experience and commercial value.
+  impact: This is the clearest example of Andrew's ability to combine product judgment, frontend quality, and delivery discipline in one program of work.
+  stack: Django, Plotly Dash, ELK, Kibana, Cisco APIs, JavaScript
 
 - title: Automated UC Migration
   year: 2024
@@ -29,7 +29,7 @@
   role: Architected, developed, and deployed the migration workflow.
   outcome: Migrated more than 4,500 sites with zero downtime in less than six months.
   impact: Proved the team could handle major infrastructure change with discipline and speed.
-  stack: Automation workflows, voice services, deployment orchestration
+  stack: Python, Cisco Webex Calling, Kandy, Ribbon SBC, AWS, migration automation
 
 - title: SDWAN and UC Auto-Provisioning
   year: 2023
@@ -40,18 +40,18 @@
   role: Led the architecture and delivery of the provisioning frameworks.
   outcome: Reduced manual provisioning effort by about 97 percent.
   impact: Streamlined deployment of 40,000+ devices and materially improved operational leverage.
-  stack: Automation, SDWAN, UC systems, deployment workflows
+  stack: Python, Cisco, Webex, Cradlepoint, Poly, Yealink, Kandy, Ribbon SBC
 
 - title: Cisco Webex App Hub Auto-Provisioning Launch
   year: 2024
   sort_key: "2024-04"
   featured: true
-  summary: Productized third-party phone provisioning and brought it into the Webex ecosystem.
-  problem: Third-party provisioning introduced workflow friction and slowed customer enablement.
-  role: Led the launch and real-time validation workflow.
-  outcome: Expanded reach and created a cleaner, more scalable provisioning path.
-  impact: Helped turn an operational need into a marketable product capability.
-  stack: Cisco Webex App Hub, validation workflows, provisioning automation
+  summary: Carrier-facing provisioning service for Poly, Yealink, and Cisco devices with real-time validation and repeated post-launch expansion.
+  problem: Third-party phone provisioning introduced workflow friction, slower onboarding, and too much manual template handling.
+  role: Managed an 8+ person team, reviewed API design, and coached engineers across template generation, validation, and credential handling.
+  outcome: Shipped the first release in January 2024 and followed with increments that expanded device coverage and improved performance.
+  impact: This shows productization, people management, and release discipline in a market-facing service, not just internal automation.
+  stack: Python, Cisco Webex App Hub, REST APIs, JSON templating, credential encryption, real-time validation
 
 - title: CradlePoint Install Automation
   year: 2025
@@ -62,7 +62,7 @@
   role: Led the cross-functional effort to automate the install process.
   outcome: Reduced site install effort by 35x while lowering error rates.
   impact: Improved delivery quality and reduced the cost of scale.
-  stack: Automation, install workflows, reliability improvements
+  stack: Python, Cradlepoint APIs, queue management, job retries, validation, workflow orchestration
 
 - title: ServiceNow CSM Emulation
   year: 2026
@@ -73,7 +73,7 @@
   role: Helped define direction, requirements, and contingency planning.
   outcome: Reached strong completion on a generalized CSM emulation capability.
   impact: Showed how Andrew applies product thinking to process heavy environments.
-  stack: ServiceNow, service workflows, intake design
+  stack: Django, JavaScript, ServiceNow APIs, workflow state engine, case-state modeling, portal integration
 
 - title: Executive Dashboard Foundations
   year: 2026
@@ -84,7 +84,7 @@
   role: Shaped the upstream data and structure behind the dashboard.
   outcome: Created a disciplined foundation for executive reporting, AI and ML analysis, and future platform expansion.
   impact: Moved the team toward better decision support and more intelligent operational analysis instead of isolated reporting.
-  stack: Data modeling, reporting, AI/ML analytics, operational metrics
+  stack: Django, Python, Chart.js, AI/ML analytics, executive reporting
 
 - title: GitHub Governance and SDLC System-Building
   year: 2022
@@ -95,7 +95,7 @@
   role: Built the systems and expectations that support quality at scale.
   outcome: Improved onboarding efficiency, reduced rework, and made quality easier to enforce.
   impact: Turned standards into a delivery advantage instead of a bureaucratic burden.
-  stack: GitHub Actions, documentation, onboarding, review systems
+  stack: GitHub Actions, Docker, AWS, branch protection, pull request reviews, contribution guides
 
 - title: ServiceNow Change Management Redesign
   year: 2020
@@ -106,7 +106,7 @@
   role: Partnered with Change Management and ServiceNow teams to improve the workflow.
   outcome: Adopted across the organization and improved delivery velocity.
   impact: Reduced process friction while preserving governance.
-  stack: ServiceNow, workflow redesign, cross-org alignment
+  stack: ServiceNow, workflow rules, API integrations, automation, portal integration
 
 - title: SaaS Portal Architecture Decision
   year: 2020
@@ -117,7 +117,7 @@
   role: Led a structured review with engineering, networking, and stakeholders.
   outcome: The portal launched as SaaS while still meeting data requirements.
   impact: Balanced current customer needs with long-term product leverage.
-  stack: Product architecture, security, extensibility, hosting strategy
+  stack: Django, AWS, PostgreSQL, multi-tenant SaaS, API integrations, security controls
 
 - title: Service-Impacting Production Incident Hardening
   year: 2021
@@ -128,4 +128,4 @@
   role: Helped resolve the issue and led the hardening follow-up.
   outcome: Tightened review, testing, and logging expectations.
   impact: Converted an incident into stronger operational discipline.
-  stack: Monitoring, logging, review rigor, postmortem actioning
+  stack: GitHub Actions, automated tests, ServiceNow Incident Management, logging, hotfix review gates

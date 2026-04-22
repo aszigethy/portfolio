@@ -248,11 +248,13 @@ button {
 }
 
 .hero > div:first-child {
-  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 2rem 1.2rem;
 }
 
 .hero__panel {
-  padding: 1.15rem;
+  padding: 1.15rem 1.15rem 0.9rem;
   display: flex;
   flex-direction: column;
   gap: 0.85rem;
@@ -285,6 +287,14 @@ button {
 .hero__meta p {
   margin: 0;
   color: var(--muted);
+}
+
+.hero__panel-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  justify-content: flex-start;
+  margin-top: auto;
 }
 
 .eyebrow,
@@ -367,6 +377,11 @@ button {
   display: flex;
   flex-wrap: wrap;
   gap: 0.7rem;
+}
+
+.hero__actions {
+  justify-content: flex-start;
+  margin-top: auto;
 }
 
 .button,
@@ -1298,6 +1313,27 @@ h2 + .stack {
   padding-top: 0.32rem;
 }
 
+.about-detail-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-areas:
+    "focus foundation"
+    "narrative narrative";
+}
+
+.about-detail-card--focus {
+  grid-area: focus;
+}
+
+.about-detail-card--foundation {
+  grid-area: foundation;
+}
+
+.about-detail-card--full {
+  grid-area: narrative;
+  width: 100%;
+  max-width: none;
+}
+
 .tag-row {
   display: flex;
   flex-wrap: wrap;
@@ -1627,6 +1663,13 @@ h2 + .stack {
     width: 100%;
   }
 
+  .about-detail-grid {
+    grid-template-areas:
+      "focus"
+      "foundation"
+      "narrative";
+  }
+
   .ops-monitor__screen {
     grid-template-columns: 1fr;
     min-height: auto;
@@ -1683,6 +1726,10 @@ h2 + .stack {
   .post__header,
   .post__body {
     padding: 1.05rem;
+  }
+
+  .hero > div:first-child {
+    padding-bottom: 1.05rem;
   }
 
   .metric-grid {

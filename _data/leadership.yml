@@ -11,11 +11,31 @@
     contribution expectations so quality became easier to achieve and easier to repeat.
   result: Teams can move faster when the baseline is clearer.
 
+- title: Create operating habits that scale
+  detail: >
+    Andrew does not rely on a single meeting cadence or management slogan. He uses regular
+    strategy calls to surface quiet perspectives, monthly 1 on 1s to track growth and blockers,
+    and quarterly planning to keep technical execution aligned with business goals.
+  result: The result is a team that can think more clearly, move with more confidence, and grow without losing coordination.
+
 - title: Resolve architecture debates with structure
   detail: >
     When the organization disagreed over SaaS versus customer-hosted deployment, Andrew
     reframed the discussion around leverage, security, deployment speed, and product growth.
   result: The result was a more scalable portal architecture that still met customer needs.
+
+- title: Step into gaps, then build the mechanism
+  detail: >
+    When PM capability was thin, Andrew stepped in long enough to stabilize execution and help
+    create stronger tracking and review habits rather than becoming a permanent substitute.
+  result: The team gained durable operating discipline instead of dependency.
+
+- title: Treat documentation as part of the delivery system
+  detail: >
+    He treats documentation as infrastructure, not cleanup. His teams start with business context
+    and success metrics, then move through requirements, high-level design, low-level design, and
+    workflow diagrams that stay current as work ships and operational ownership changes hands.
+  result: This reduces onboarding drag, lowers repeat questions, and makes larger systems easier to change safely.
 
 - title: Turn incidents into better systems
   detail: >
@@ -24,14 +44,9 @@
     operational problem.
   result: The organization gained more durable safeguards from a hard lesson.
 
-- title: Step into gaps, then build the mechanism
+- title: Develop people by turning learning into ownership
   detail: >
-    When PM capability was thin, Andrew stepped in long enough to stabilize execution and help
-    create stronger tracking and review habits rather than becoming a permanent substitute.
-  result: The team gained durable operating discipline instead of dependency.
-
-- title: Develop people through clarity and feedback
-  detail: >
-    He is at his best when helping engineers and leaders see the right answer more clearly,
-    especially when expectations are fuzzy or pressure is high.
-  result: The people around him can operate with more confidence and better judgment.
+    When a junior engineer needed a stronger path into the team, Andrew paired technical ramp-up
+    with documentation ownership so learning and contribution happened at the same time. The
+    engineer grew into a mid-level contributor and became a major source of durable team knowledge.
+  result: That pattern shows how he develops people without separating growth from real work.
