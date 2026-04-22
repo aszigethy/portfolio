@@ -37,7 +37,7 @@ seo_description: Selected projects from Andrew Szigethy's work in software platf
         </div>
         <div class="note-card">
           <strong>Outcome</strong>
-          <p>{{ project.outcome }}</p>
+          <div class="project-card__richtext">{{ project.outcome | markdownify }}</div>
         </div>
         <div class="note-card">
           <strong>Impact</strong>

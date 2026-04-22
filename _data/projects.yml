@@ -2,130 +2,130 @@
   year: 2021
   sort_key: "2021-04"
   featured: true
-  summary: Original customer portal and BI platform that turned operational visibility into a product.
-  problem: Customers needed better visibility into system administration, monitoring, and performance.
-  role: Led the design and development from conception to delivery.
-  outcome: Reduced MTTR, improved visibility, and created the product foundation for later growth.
-  impact: Became the origin point for Andrew's flagship product leadership and later revenue-supporting work.
+  summary: Original Django-based customer portal and BI platform that turned operational visibility into a product.
+  problem: Customers needed a better way to access system administration, monitoring, reporting, and incident visibility in one place.
+  role: Led the design and development from architecture through initial release and wrote the first release end to end.
+  outcome: Launched to the first two enterprise clients, reduced MTTR, improved operational visibility, and supported follow-on releases that improved navigation, validation, and usability.
+  impact: Became the foundation for later product growth and helped transform internal engineering capability into a revenue-supporting customer-facing platform.
   stack: Django, ELK, LogicMonitor, Python, vendor APIs
 
 - title: MaestroIQ
   year: 2025
   sort_key: "2025-06"
   featured: true
-  summary: Complete portal rewrite that turned a functional utility into a more polished and scalable customer-facing product.
-  problem: The original portal needed broader product coverage, stronger analytics, cleaner navigation, and a higher standard of usability to support growth.
-  role: Led a 12+ person cross-functional team through strategy, planning, delivery, and release management while keeping the platform stable for live tenants.
-  outcome: Shipped three releases, added a Plotly Dash analytics module, completed an accessibility audit, and materially improved the product's user experience and commercial value.
-  impact: This is the clearest example of Andrew's ability to combine product judgment, frontend quality, and delivery discipline in one program of work.
+  summary: Next-generation Django portal that elevated ConnX's customer-facing product into a more scalable and commercially valuable platform.
+  problem: The original portal needed broader voice-service coverage, stronger analytics, cleaner navigation, and a higher standard of usability to support growth.
+  role: Led strategy, planning, and delivery for a 12+ person cross-functional team through three production releases while keeping live tenants stable during rollout.
+  outcome: Expanded the platform with Plotly Dash analytics, monitoring, usage insights, scalable Cisco integrations, accessibility improvements, and a materially upgraded UI.
+  impact: Elevated MaestroIQ into ConnX's flagship web product and strengthened its value in enterprise sales conversations.
   stack: Django, Plotly Dash, ELK, Kibana, Cisco APIs, JavaScript
 
 - title: Automated UC Migration
   year: 2024
   sort_key: "2024-05"
   featured: true
-  summary: End-to-end migration workflow for mission-critical voice services across thousands of sites.
-  problem: Manual migration of voice services created risk, delay, and unnecessary operational load.
-  role: Architected, developed, and deployed the migration workflow.
-  outcome: Migrated more than 4,500 sites with zero downtime in less than six months.
-  impact: Proved the team could handle major infrastructure change with discipline and speed.
+  summary: End-to-end automation workflow for mission-critical voice service migration across thousands of sites.
+  problem: Large-scale UC migrations created substantial operational risk, coordination overhead, and downtime exposure when handled manually.
+  role: Architected, developed, and deployed the migration workflow across provisioning, validation, and cutover stages.
+  outcome: Migrated more than 4,500 stores with zero downtime in under six months.
+  impact: Remains one of the clearest examples of delivery quality at scale and materially strengthened ConnX's position as an SDWAN and UC services MSP.
   stack: Python, Cisco Webex Calling, Kandy, Ribbon SBC, AWS, migration automation
 
 - title: SDWAN and UC Auto-Provisioning
-  year: 2023
-  sort_key: "2023-03"
+  year: 2020
+  sort_key: "2020-04"
   featured: true
-  summary: Large-scale automation framework that replaced manual provisioning with repeatable software.
-  problem: Provisioning was too manual and created cost, delay, and reliability risk.
-  role: Led the architecture and delivery of the provisioning frameworks.
-  outcome: Reduced manual provisioning effort by about 97 percent.
-  impact: Streamlined deployment of 40,000+ devices and materially improved operational leverage.
+  summary: Large-scale automation framework that replaced manual provisioning with repeatable software-driven delivery.
+  problem: SDWAN and UC provisioning relied too heavily on manual steps, creating cost, delay, and consistency risk at scale.
+  role: Led the architecture and delivery of the provisioning frameworks and helped turn operational workflows into durable software systems.
+  outcome: Reduced manual provisioning effort by approximately 97 percent and streamlined deployment of more than 40,000 devices across thousands of client sites.
+  impact: Became an early proof point that automation could materially improve delivery speed, operational leverage, and customer experience at scale.
   stack: Python, Cisco, Webex, Cradlepoint, Poly, Yealink, Kandy, Ribbon SBC
 
 - title: Cisco Webex App Hub Auto-Provisioning Launch
   year: 2024
   sort_key: "2024-04"
   featured: true
-  summary: Carrier-facing provisioning service for Poly, Yealink, and Cisco devices with real-time validation and repeated post-launch expansion.
+  summary: Market-facing provisioning service for Poly, Yealink, and Cisco devices launched through Cisco Webex App Hub.
   problem: Third-party phone provisioning introduced workflow friction, slower onboarding, and too much manual template handling.
-  role: Managed an 8+ person team, reviewed API design, and coached engineers across template generation, validation, and credential handling.
-  outcome: Shipped the first release in January 2024 and followed with increments that expanded device coverage and improved performance.
-  impact: This shows productization, people management, and release discipline in a market-facing service, not just internal automation.
+  role: Managed an 8+ person team across API design, validation logic, vendor template generation, and encrypted credential handling.
+  outcome: Shipped the first release in January 2024 and followed with additional releases that expanded device coverage and improved performance.
+  impact: Reduced onboarding friction for carriers and customers, expanded reach, and opened new revenue channels.
   stack: Python, Cisco Webex App Hub, REST APIs, JSON templating, credential encryption, real-time validation
 
 - title: CradlePoint Install Automation
   year: 2025
   sort_key: "2025-05"
   featured: true
-  summary: Automation for site installation work that dramatically reduced manual effort and risk.
-  problem: Site installs required too much manual coordination and carried reliability risk.
-  role: Led the cross-functional effort to automate the install process.
-  outcome: Reduced site install effort by 35x while lowering error rates.
-  impact: Improved delivery quality and reduced the cost of scale.
+  summary: Installation workflow automation that dramatically reduced manual effort and improved deployment reliability.
+  problem: Site installs required too much manual coordination and carried avoidable reliability and error risk.
+  role: Led the cross-functional effort and defined technical direction across API orchestration, queue management, validation logic, and operational handoff.
+  outcome: Reduced install effort by roughly 35x while lowering manual error rates and making the workflow easier to scale across field operations.
+  impact: Improved delivery quality, reduced the cost of scale, and returned engineering and support capacity to higher-value work.
   stack: Python, Cradlepoint APIs, queue management, job retries, validation, workflow orchestration
 
 - title: ServiceNow CSM Emulation
   year: 2026
-  sort_key: "2026-02"
-  featured: true
-  summary: Service request and support workflow model that aimed to scale customer-facing process handling.
-  problem: Support and request workflows needed a more scalable, software-shaped path.
-  role: Helped define direction, requirements, and contingency planning.
-  outcome: Reached strong completion on a generalized CSM emulation capability.
-  impact: Showed how Andrew applies product thinking to process heavy environments.
-  stack: Django, JavaScript, ServiceNow APIs, workflow state engine, case-state modeling, portal integration
-
-- title: Executive Dashboard Foundations
-  year: 2026
-  sort_key: "2026-03"
-  featured: true
-  summary: AI and ML-oriented dashboard groundwork that connects operational data to executive-level visibility.
-  problem: Leadership needed a better way to see trends, performance, and delivery signals.
-  role: Shaped the upstream data and structure behind the dashboard.
-  outcome: Created a disciplined foundation for executive reporting, AI and ML analysis, and future platform expansion.
-  impact: Moved the team toward better decision support and more intelligent operational analysis instead of isolated reporting.
-  stack: Django, Python, Chart.js, AI/ML analytics, executive reporting
+  sort_key: "2026-01"
+  featured: false
+  summary: Embedded ServiceNow CSM routines directly into the customer portal to streamline service workflows without requiring a separate login.
+  problem: Customer service actions were fragmented across systems, creating extra login friction for end users and operational overhead for support teams.
+  role: Led the design and delivery of a generalized emulation layer that brought CSM workflows into the portal while preserving existing operational expectations and support processes.
+  outcome: Delivered a reusable framework that could be extended across clients and workflows with minimal overhead, reducing friction for both internal teams and external users.
+  impact: This project demonstrated product judgment and systems thinking by improving customer experience, preserving operational continuity, and establishing a scalable foundation for future embedded workflow expansion.
+  stack: Django, JavaScript, ServiceNow APIs, workflow state modeling, portal integration
 
 - title: GitHub Governance and SDLC System-Building
   year: 2022
   sort_key: "2022-02"
   featured: true
-  summary: Engineering standards work that improved contribution quality and review discipline.
-  problem: The organization needed clearer onboarding, better review habits, and stronger delivery standards.
-  role: Built the systems and expectations that support quality at scale.
-  outcome: Improved onboarding efficiency, reduced rework, and made quality easier to enforce.
-  impact: Turned standards into a delivery advantage instead of a bureaucratic burden.
+  summary: Engineering standards and version control modernization that improved contribution quality, onboarding, and review discipline.
+  problem: Multiple live codebases were serving internal and customer-facing needs without strong enough shared development standards.
+  role: Designed and implemented branching strategy, pull request workflows, formal code review expectations, remediation plans for legacy repositories, and team training.
+  outcome: Improved onboarding efficiency, reduced rework, and made stronger delivery discipline easier to enforce across the organization.
+  impact: Laid the groundwork for broader engineering maturity gains and turned standards into a practical delivery advantage.
   stack: GitHub Actions, Docker, AWS, branch protection, pull request reviews, contribution guides
 
-- title: ServiceNow Change Management Redesign
-  year: 2020
-  sort_key: "2020-03"
+- title: Flipper Hold'em
+  year: 2026
+  sort_key: "2026-04"
   featured: false
-  summary: Change process redesign that made software delivery easier without losing compliance.
-  problem: The ITIL-style process created friction for engineering work.
-  role: Partnered with Change Management and ServiceNow teams to improve the workflow.
-  outcome: Adopted across the organization and improved delivery velocity.
-  impact: Reduced process friction while preserving governance.
-  stack: ServiceNow, workflow rules, API integrations, automation, portal integration
+  summary: Open-source native Texas Hold'em game for Flipper Zero built as a personal engineering project around constrained-device UX and small-system reliability.
+  problem: Small devices expose weak interaction design and brittle logic immediately, making them a strong testbed for state handling, interface clarity, and disciplined implementation.
+  role: Designed and built the game end to end, including game flow, bot play, save-and-load behavior, payout resolution, and device-specific UX.
+  outcome: Implemented full hand flow from preflop through showdown, heads-up or five-player play with up to four bots, full save and load support, side-pot and split-pot resolution, configurable blinds, and four bot difficulty levels. Check it out [here](https://github.com/code-phreak/flipper-holdem).
+  impact: Demonstrates hands-on range beyond day-to-day product leadership and shows the same engineering discipline applied to constrained systems, deterministic state, and edge-case-heavy logic.
+  stack: C, Flipper Zero SDK, hardware RNG, Fisher-Yates shuffle, state machines, embedded UX
 
-- title: SaaS Portal Architecture Decision
-  year: 2020
-  sort_key: "2020-02"
+- title: ServiceNow Change Management Redesign
+  year: 2023
+  sort_key: "2023-04"
   featured: false
-  summary: Strategic architecture decision that chose a SaaS model over customer-hosted deployment.
-  problem: There was disagreement on where the new portal should live.
-  role: Led a structured review with engineering, networking, and stakeholders.
-  outcome: The portal launched as SaaS while still meeting data requirements.
-  impact: Balanced current customer needs with long-term product leverage.
-  stack: Django, AWS, PostgreSQL, multi-tenant SaaS, API integrations, security controls
+  summary: Redesigned change management workflows to better align ServiceNow process execution with real operational needs across delivery and support teams.
+  problem: Existing change processes created unnecessary friction, inconsistent handoffs, and too much manual interpretation between engineering, operations, and support workflows.
+  role: Led the redesign effort by evaluating current-state process gaps, defining improved workflow logic, and shaping the technical implementation across ServiceNow automation, portal integration, and supporting operational rules.
+  outcome: Delivered a more structured and reliable change model that reduced process ambiguity, improved cross-team coordination, and made service-impacting changes easier to execute consistently.
+  impact: This work strengthened operational discipline without adding unnecessary overhead, improving both internal confidence and the scalability of production change execution.
+  stack: ServiceNow, workflow automation, API integrations, portal integration, change management, operational process design
+
+- title: ConnX Cloud Delivery and CI/CD Enablement
+  year: 2023
+  sort_key: "2023-06"
+  featured: false
+  summary: Established a more disciplined cloud delivery model across ConnX software systems by implementing CI/CD pipelines on AWS with GitHub Actions and Docker.
+  problem: Software delivery was too dependent on team-specific knowledge and inconsistent release practices, creating unnecessary friction, higher defect risk, and less predictable production outcomes.
+  role: Led the design and rollout of a stronger delivery framework across multiple ConnX products, defining CI/CD standards, deployment controls, automated test gates, security checks, rollback support, and supporting workflows for repeatable cloud releases.
+  outcome: Improved developer throughput, reduced release friction, and increased production predictability across a growing multi-tenant software footprint.
+  impact: This work moved releases away from team-dependent processes and toward a more scalable engineering system built for stability, velocity, and long-term operational maturity.
+  stack: AWS, GitHub Actions, Docker, CI/CD, automated testing, security checks, rollback workflows
 
 - title: Service-Impacting Production Incident Hardening
   year: 2021
   sort_key: "2021-01"
   featured: false
-  summary: Postmortem-driven systems improvement after a hotfix caused a timezone-related outage.
-  problem: A production hotfix caused a service-impacting incident across about 30 stores.
-  role: Helped resolve the issue and led the hardening follow-up.
-  outcome: Tightened review, testing, and logging expectations.
-  impact: Converted an incident into stronger operational discipline.
-  stack: GitHub Actions, automated tests, ServiceNow Incident Management, logging, hotfix review gates
+  summary: Strengthened the engineering and operational response model for service-impacting production issues through better validation, incident handling, and release safeguards.
+  problem: Production incidents with customer impact required a more disciplined response model and stronger controls to reduce repeat issues, shorten resolution time, and improve release confidence.
+  role: Helped define and implement stronger incident-handling and release-hardening practices, including better test coverage in GitHub Actions, improved review gates, and tighter integration with ServiceNow incident workflows.
+  outcome: Improved readiness for high-impact incidents, reduced avoidable production risk, and created a more consistent path from issue detection through remediation and controlled release.
+  impact: This effort improved operational reliability by turning incident response and post-incident learning into stronger engineering safeguards rather than one-off firefighting.
+  stack: GitHub Actions, automated testing, release gates, Incident Management, incident response, production hardening
